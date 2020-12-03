@@ -1,0 +1,17 @@
+{
+  "name": "reshuffle3runtime",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "clean": "rm -rf backups logs node_modules package-lock.json runtime",
+    "start": "node -e 'require(\"reshuffle-runtime-enterprise\").runReshuffle()'",
+    "test": "echo \"Error: no tests\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "reshuffle-eidr-connector": "^0.0.7",
+    "reshuffle-moviesanywhere-connector": "^0.0.2",
+    "reshuffle-runtime-enterprise": "^0.0.21"
+  }
+}
